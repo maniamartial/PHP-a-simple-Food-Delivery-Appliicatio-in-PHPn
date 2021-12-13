@@ -46,7 +46,7 @@
 							<td>Ksh. <?php echo number_format($row['price'], 2); ?></td>
 							<td>
 								<a href="#editproduct<?php echo $row['productid']; ?>" data-toggle="modal" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-pencil"></span> Edit</a> || <a href="#deleteproduct<?php echo $row['productid']; ?>" data-toggle="modal" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-trash"></span> Delete</a>
-								<?php include('product_modal.php'); ?>
+								<?php include('adminproduct_modal.php'); ?>
 							</td>
 						</tr>
 						<?php

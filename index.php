@@ -2,7 +2,7 @@
 <body>
 <?php include('navbarCustomer.php'); ?>
 <div class="container">
-	<h1 class="page-header text-center">MENU</h1>
+	<h1 class="page-header text-center" style="margin-top: 70px;"> MENU</h1>
 	<ul class="nav nav-tabs">
 		<?php
 			$sql="select * from category order by categoryid asc limit 1";
@@ -114,3 +114,9 @@
 <?php include("footer.php")?>
 
 </html>
+
+<style>
+	.container{
+	
+	}
+</style>

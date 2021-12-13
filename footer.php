@@ -41,7 +41,7 @@
         <li><a href="#">+25767887978</a></li>
         <li><a href="#">Kikuyu Road</a></li>
         <li><a href="#">Nairobi</a></li>
-        <li><a href="product.php">ADMIN</a></li>
+        <li><a href="adminproduct.php">ADMIN</a></li>
         
       </ul>
     </div>

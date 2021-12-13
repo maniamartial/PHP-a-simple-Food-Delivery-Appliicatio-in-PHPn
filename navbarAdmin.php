@@ -15,8 +15,8 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a href="index.php">Menu</a></li>
-        <li><a href="sales.php">TotalSales</a></li>
-         <li><a href="product.php">Products</a></li>
+        <li><a href="adminsales.php">TotalSales</a></li>
+         <li><a href="adminproduct.php">Products</a></li>
            <li><a href="category.php">Category</a></li>
       
       </ul>

@@ -29,7 +29,7 @@
  		
  		$sql="update purchase set total='$total' where purchaseid='$pid'";
  		$conn->query($sql);
-		header('location:sales.php');		
+		header('location:adminsales.php');		
 	}
 	else{
 		?>

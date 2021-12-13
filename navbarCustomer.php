@@ -12,7 +12,7 @@
 </head>
 <body>
     <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top" style=" background: linear-gradient(to right, orange, gold);">
+    <nav class="navbar navbar-default navbar-fixed-top top-margin" style=" background: linear-gradient(to right, orange, gold); margin: botton 200px;">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -51,8 +51,8 @@
     .navbar-brand{
         font-size: 25px;
     }
-    .navbar{
-      margin-bottom: 40px;
+    .top-margin{
+      margin-bottom: 100px;
     }
 }
        </style>

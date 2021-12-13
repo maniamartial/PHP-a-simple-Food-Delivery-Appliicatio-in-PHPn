@@ -12,7 +12,7 @@
 		<table class="table table-striped table-bordered">
 			<thead>
 				<th>Category Name</th>
-				<th>Action</th>
+				<th>CHoose what to be done</th>
 			</thead>
 			<tbody>
 				<?php

@@ -19,6 +19,6 @@
 	$sql="insert into product (productname, categoryid, price, photo) values ('$pname', '$category', '$price', '$location')";
 	$conn->query($sql);
 
-	header('location:product.php');
+	header('location:adminproduct.php');
 
 ?>

@@ -2,7 +2,7 @@
 <body>
 <?php include('navbarAdmin.php'); ?>
 <div class="container">
-	<h1 class="page-header text-center">SALES</h1>
+	<h1 class="page-header text-center">TRANSACTIONS</h1>
 	<table class="table table-striped table-bordered">
 		<thead>
 			<th>Date</th>
@@ -21,7 +21,7 @@
 						<td><?php echo $row['customer']; ?></td>
 						<td class="text-right">&#8369; <?php echo number_format($row['total'], 2); ?></td>
 						<td><a href="#details<?php echo $row['purchaseid']; ?>" data-toggle="modal" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-search"></span> View </a>
-							<?php include('sales_modal.php'); ?>
+							<?php include('adminsales_modal.php'); ?>
 						</td>
 					</tr>
 					<?php
